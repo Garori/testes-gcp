@@ -1,2 +1,5 @@
 def main(request):
-  return 1
+    print(request.headers.get("nomenome"))
+    print(request.get_json())
+    # print(request.)
+    return 1
