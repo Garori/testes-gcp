@@ -18,4 +18,4 @@ def main(request):
     for item in request.headers.items():
         print(item)
     # print(request.)
-    return {"msg":"teste"}, 200
+    return {"msg":"teste"}, 200, headers
