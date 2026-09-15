@@ -1,6 +1,4 @@
 def main(request):
-    print(request.headers)
-    print(request.get_json())
     headers = {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "POST,OPTIONS",
