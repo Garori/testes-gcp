@@ -7,7 +7,7 @@ function button_post(){
       completed: false
     }),
     headers: {
-      "Content-type": "application/json",
+      "Content-Type": "application/json",
       "nomenome": "js test"
     }
   }).then((response) => response.json())
