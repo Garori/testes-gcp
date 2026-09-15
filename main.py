@@ -12,11 +12,10 @@ def main(request):
         return ("", 204, headers)
 
     # Set CORS headers for the main request
-    headers = {"Access-Control-Allow-Origin": "*"}
 
     print(request.headers)
     print(request.get_json())
     for item in request.headers.items():
         print(item)
     # print(request.)
-    return ("Hello World!\n", 200, headers)
+    return {"msg":"teste"}, 200
